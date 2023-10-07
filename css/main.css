@@ -110,10 +110,32 @@ nav {
   align-items: center;
 }
 
-
 .Image
 {
    border: 0px #000000 solid;
+}
+
+.yellow {
+  background-color: rgb(221, 221, 82);
+  border-radius: 5px;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+}
+
+.grey {
+  background-color: rgb(61, 55, 55);
+  color: white;
+  border-radius: 5px;
+}
+
+.red {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
 }
 
 input, textarea {
