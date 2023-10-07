@@ -112,7 +112,7 @@ nav {
 
 
 
-#Image
+.Image
 {
    border: 0px #000000 solid;
 }
@@ -126,7 +126,7 @@ input, textarea {
 .TextTitulos {
   color: white;
   font-family:Arial;
-  font-size:27px;
+  font-size:25px;
 }
 
 footer {
