@@ -37,12 +37,17 @@ nav {
     font-size: 1em;
     text-align: center;
     color: black;
+    position:relative;
+    top:1350px;
   }
 
   .form {
     font-size: 1em;
     text-align: center;
     color: black;
+
+    position:relative;
+    top:1350px;
   }
 
   .divTitulo2 {
@@ -50,6 +55,12 @@ nav {
     text-align: left;
     color: black;
     background: black;
+    position:absolute;
+    left:710px;
+    top:1850px;
+    width:700px;
+    height:700px;
+    z-index:1;
   }
 
   .divTitulo3 {
@@ -122,9 +133,22 @@ nav {
   align-items: center;
 }
 
+
 .Image
 {
    border: 0px #000000 solid;
+}
+
+.Image2
+{
+  position:absolute;
+  left:10px;top:1850px;width:700px;height:700px;z-index:1;
+}
+
+.Image3
+{
+  width:700px;
+  height:700px;
 }
 
 .black {
