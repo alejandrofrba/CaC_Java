@@ -39,6 +39,12 @@ nav {
     color: black;
   }
 
+  .form {
+    font-size: 1em;
+    text-align: center;
+    color: black;
+  }
+
   .divTitulo2 {
     font-size: 1em;
     text-align: left;
@@ -121,8 +127,8 @@ nav {
    border: 0px #000000 solid;
 }
 
-.yellow {
-  background-color: rgb(221, 221, 82);
+.black {
+  color: black;
   border-radius: 5px;
 }
 
@@ -144,6 +150,17 @@ nav {
   border-radius: 5px;
 }
 
+.yellow {
+  background-color: rgb(221, 221, 82);
+  border-radius: 5px;
+}
+
+.whiteText {
+  color: white;
+  font-family:Arial;
+  font-size:20px;
+}
+
 input, textarea {
   font-size: 1.5em;
   text-align: left;
@@ -155,6 +172,36 @@ input, textarea {
   font-family:Arial;
   font-size:25px;
 }
+
+
+
+
+.OradoresNom {
+  color:#000000;
+  font-family:Arial;
+  font-size:20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.OradoresText {
+  color:#000000;
+  font-family:Arial;
+  font-size:13px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.PosAbs {
+  position:absolute;
+}
+
+.PosRel {
+  position:relative;
+}
+
 
 footer {
   width: 100%;
