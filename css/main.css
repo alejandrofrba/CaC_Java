@@ -21,10 +21,28 @@ nav {
   }
 
   .divContainer {
+    width: 100%;
+    height: 1000px;
     font-size: 1em;
     display: inline-block;
     text-align: right;
     vertical-align: top;
+  }
+
+  .divContainer2 {
+    position:relative;
+    right:100px;
+    top:600px
+  }
+
+  .nav-link{
+    font-family:Arial;
+    font-size:20px;
+  }
+
+  .nav-link2{
+    font-family:Arial;
+    font-size:27px;
   }
 
   .speakers {
@@ -131,13 +149,42 @@ nav {
   width: 50vw;
   justify-content: center;
   align-items: center;
+
+  position:relative;
+  top:10px;
+  width: 46%;
 }
 
 
-.Image
+.ImageSteve
 {
-   border: 0px #000000 solid;
+  position:absolute;
+  border: 0px #000000 solid;
+  left:200px;top:1300px;width:300px;height:300px;z-index:0;
 }
+
+.ImageBill
+{
+  position:absolute;
+  border: 0px #000000 solid;
+  left:550px;top:1300px;width:300px;height:300px;z-index:1;
+}
+
+.ImageAda
+{
+  position:absolute;
+  border: 0px #000000 solid;
+  left:900px;top:1300px;width:300px;height:300px;z-index:2;
+}
+
+.ImageOrador
+{
+  width:320px;
+  height:320px;
+}
+
+
+
 
 .Image2
 {
@@ -151,6 +198,15 @@ nav {
   height:700px;
 }
 
+.Image5
+{
+  position:absolute;
+   left:5%;
+   top:10px;
+   width:190px;
+   height:110px;
+}
+
 .black {
   color: black;
   border-radius: 5px;
@@ -160,6 +216,10 @@ nav {
   background-color: blue;
   color: white;
   border-radius: 5px;
+}
+
+.green2 {
+  color: rgb(55, 231, 55);
 }
 
 .grey {
@@ -179,6 +239,10 @@ nav {
   border-radius: 5px;
 }
 
+.white {
+  color: white;
+}
+
 .whiteText {
   color: white;
   font-family:Arial;
@@ -192,6 +256,9 @@ input, textarea {
 }
 
 .TextTitulos {
+  position:absolute;
+  top:40px;
+  text-align:left;
   color: white;
   font-family:Arial;
   font-size:25px;
@@ -227,9 +294,84 @@ input, textarea {
 }
 
 
-footer {
+.Text4  {
+  position:absolute;
+  text-align:center;
+  top:40px;
+  width:10%;
+}
+
+
+
+.FS27  {
+  font-size:27px;
+}
+
+
+
+.L10  {
+  left:10%;
+}
+
+.L18 {
+  left:18%;
+}
+
+.L22  {
+  left:22%;
+}
+
+.L34  {
+  left:34%;
+}
+
+.L35 {
+  left:34%;
+}
+
+.L46 {
+  left:46%;
+}
+
+.L57 {
+  left:57%;
+}
+
+.L58  {
+  left:58%;
+}
+
+.L70 {
+  left:70%;
+}
+
+.L82 {
+  left:82%;
+}
+
+.L85 {
+  left:85%;
+}
+
+
+.W13 {
+  width:13%;
+}
+
+.W14 {
+  width:14%;
+}
+
+.W15 {
+  width:15%;
+}
+
+
+.footer {
   width: 100%;
   height: 130px;
   background-color: rgb(64, 64, 87);
   color:white;
+  position:relative;
+  top:1500px;
 }
