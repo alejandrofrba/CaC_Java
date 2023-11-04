@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+
+  <script src="JS/scripts.js"></script>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+<nav>
+    <a>
+      <div id="Image5"  class="Image5">
+        <img src="images/codoacodo.png" id="Image5" >
+      </div>
+      <div id="TextTitulos"  class="TextTitulos L18 W134">
+        <span class="nav-link2 white" > Bs As Conf</span>
+      </div>
+      <div id="TextTitulos"  class="TextTitulos L35 W13">
+         <a class="nav-link active white" href="#" aria-current="page" href="#">La conferencia</a> 
+      </div>
+
+      <div id="TextTitulos"  class="TextTitulos L46 W15">
+         <a class="nav-link white" href="#speakers">los oradores</a>
+      </div>
+
+      <div id="TextTitulos"  class="TextTitulos L57 W15">
+         <a class="nav-link white"  href="#"> El lugar y la fecha</a>
+      </div>
+
+      <div id="TextTitulos"  class="TextTitulos W15" style="left:70%;">
+        <a class="nav-link white"  href="#form">Conviertete en orador</a>
+      </div>
+
+      <div id="TextTitulos"  class="TextTitulos L85 W15">
+         <a class="nav-link green2"  href="./tickets.html">Comprar tickets</a>
+      </div>
+
+
+    </a>
+</nav>
+
+
+
+
+
+
+
+
+
+
+<div id="comprartickets" >
+  <div class="row " >
+
+    <div class="col-sm col cajas1 ">
+      <div class="row container text-center ">
+
+        <div class="col border border-primary m-1 p-3 cajadetalle1">
+          <h5>Estudiante</h5>
+          <p>Tiene un descuento</p>
+          <p class="font-weight-bold">80%</p>
+          <p class="presentardocumentacion">* presentar documentación</p>
+        </div>
+
+        <div class="col-sm col border border-secondary m-1 p-3 cajadetalle1">
+          <h5>Trainee</h5>
+          <p>Tiene un descuento</p>
+          <p class="font-weight-bold">50%</p>
+          <p class="presentardocumentacion">* presentar documentación</p>
+        </div>
+
+        <div class="col-sm col border border-warning  m-1 p-3 cajadetalle1">
+          <h5>Junior</h5>
+          <p>Tiene un descuento</p>
+          <p class="font-weight-bold">15%</p>
+          <p class="presentardocumentacion">* presentar documentación</p>
+        </div>
+
+      </div>
+      <p class="text-center">VENTA</p>
+      <h2 class="text-center">VALOR DE TICKET $200</h2>
+
+    </div>
+
+  </div>
+
+
+  <form id="mi-formulario">
+    <div class="row container-fluid ">
+      <div class="col-sm-3">
+      </div>
+      <div class="col-sm-3  formulario">
+        <input type="text" class="form-control" placeholder="Nombre" aria-label="Last name" id="nombre">
+      </div>
+      <div class="col-sm-3  formulario">
+        <input type="text" class="form-control" placeholder="Apellido" aria-label="First name" id="apellido">
+      </div>
+      <div class="col-sm-3">
+      </div>
+    </div>
+    <div class="container-fluid row">
+      <div class="col-3"></div>
+      <div class=" container-fluid col-sm-6">
+        <div class="mb-3 my-3">
+          <input type="email" class="form-control" placeholder="Correo" aria-label="First name" id="email">
+        </div>
+      </div>
+      <div class="col-3"></div>
+
+    </div>
+    <div class="row container-fluid ">
+      <div class="col-sm-3">
+      </div>
+      <div class="col-sm-3 ">
+        <p class="m-1">Cantidad</p>
+        <input type="number" class="form-control" placeholder="Cantidad" id="cantidad" value="0" aria-label="Last name">
+      </div>
+      <div class="col-sm-3 ">
+        <p class="m-1">Categoría</p>
+        <select id="categoria" class="form-select">
+          <option selected>Elegir una opción</option>
+          <option value="estudiante">Estudiante</option>
+          <option value="trainee">Trainee</option>
+          <option value="junior">Junior</option>
+        </select>
+      </div>
+      <div class="col-sm-3">
+      </div>
+    </div>
+</div>
+<div class="container-fluid row">
+  <div class="col-3"></div>
+  <div class=" container-fluid col-sm-6">
+
+    <div class="border p-2 mb-2 rounded my-3 pl-4" style="background-color: #ECF4FC"><p id="resultado">Total a pagar: $ <span id="precio-total">0</span></p></div>
+  </div>
+  <div class="col-3"></div>
+  <div class="row container-fluid mx-2 mb-3">
+    <div class="col-sm-3">
+    </div>
+    <div class="d-grid gap-2 col-3 ">
+      <button class="btn btnenviar1 btn-block text-white" id="boton-borrar"><b>Borrar</b></button>
+
+
+    </div>
+    <div class="d-grid gap-2 col-3 ">
+      <button class="btn btnenviar1 btn-block text-white" id="calcular-descuento"><b>Resumen</b></button>
+
+    </div>
+    <div class="col-sm-3">
+     
+    </div>
+   </div>
+
+ </div>
+</form>
+
+
+
+
+
+
+
+
+
+
+<footer class="footerTickets" >
+
+    <div id="Text4" class="Text4 L10" >
+      <a class="whiteText" href="#">Preguntas frecuentes</a>
+    </div>
+  
+    <div id="Text4" class="Text4 L22">
+      <a class="whiteText" href="#">Contàctenos</a>
+    </div>
+  
+    <div id="Text4" class="Text4 L34">
+      <a class="whiteText" href="#">Prensa</a>
+    </div>
+  
+    <div id="Text4" class="Text4 L46">
+      <a class="whiteText" href="#">Conferencias</a>
+    </div>
+  
+    <div id="Text4" class="Text4 L58">
+      <a class="whiteText" href="#">Tèrminos y condiciones</a>
+    </div>
+  
+    <div id="Text4" class="Text4 L70">
+      <a class="whiteText" href="#">Privacidad</a>
+    </div>
+  
+    <div id="Text4" class="Text4 L82">
+      <a class="whiteText" href="#">Estudiantes</a>
+    </div>
+  
+  </footer>
+
+
+  </body>
+  </html>
+  
+  

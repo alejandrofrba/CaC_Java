@@ -1,4 +1,9 @@
 
+*{
+  padding: 0;
+  margin: 0;
+}
+
 nav {
     width: 100%;
     height: 130px;
@@ -182,7 +187,6 @@ nav {
   width:320px;
   height:320px;
 }
-
 
 
 
@@ -374,4 +378,21 @@ input, textarea {
   color:white;
   position:relative;
   top:1500px;
+}
+
+
+.footerTickets {
+  width: 100%;
+  height: 130px;
+  background-color: rgb(64, 64, 87);
+  color:white;
+  position:relative;
+/* 
+  top:100px;
+
+ */}
+
+
+ .btnenviar1{
+  background-color: rgb(90, 207, 90); 
 }
